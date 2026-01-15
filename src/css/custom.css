@@ -695,7 +695,10 @@ article img[src*="/img/collection_explorer/"] {
 /* Fix copy button positioning on mobile with safe area support */
 @media (max-width: 996px) {
   #copy-page-button-container {
+    position: absolute !important;
+    left: auto !important;
     right: max(16px, env(safe-area-inset-right, 16px)) !important;
+    top: 75px !important;
   }
 }
 
